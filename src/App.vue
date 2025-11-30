@@ -1,12 +1,10 @@
-<script setup>
-import Navbar from './components/navbar.vue'
-import HeroSection from './components/herosection.vue'
-</script>
-
 <template>
-  <Navbar />
-  <HeroSection />
+  <router-view />
 </template>
 
-<style scoped>
+<script setup>
+</script>
+
+<style>
+
 </style>
