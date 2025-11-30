@@ -1,9 +1,11 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import Navbar from './components/navbar.vue'
+import HeroSection from './components/herosection.vue'
 </script>
 
 <template>
-  <HelloWorld msg="Vite + Vue" />
+  <Navbar />
+  <HeroSection />
 </template>
 
 <style scoped>
