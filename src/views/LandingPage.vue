@@ -50,8 +50,23 @@
       </div>
     </section>
 
-    <!--TESTIMONIAL SECTION-->
-    <section class="w-full bg-white py-24">
+    <!-- TESTIMONIAL SECTION -->
+    <section class="w-full bg-white py-24 relative overflow-hidden">
+      
+      <!-- Dekorasi Ellipse kiri atas -->
+      <img 
+        src="/src/assets/Ellipse4.png"
+        alt=""
+        class="absolute top-0 left-0 w-40 h-60"
+      />
+
+      <!-- Dekorasi Ellipse kanan bawah -->
+      <img 
+        src="/src/assets/Ellipse5.png"
+        alt=""
+        class="absolute bottom-0 right-0 w-40 h-60"
+      />
+
       <!-- Title -->
       <h2 class="text-center text-5xl font-bold text-[#622EFD] mb-20">
         Hear From Our Users
@@ -67,25 +82,32 @@
           :key="i"
           class="rounded-[50px] p-8 bg-gradient-to-b from-[#3A1C97] to-[#622EFD] shadow-[0_35px_70px_rgba(98,46,253,0.60)] text-center"
         >
-          <!-- Foto -->
           <img
             :src="item.photo"
             alt="User"
             class="w-20 h-20 rounded-full mx-auto mb-4 border-4 border-white/20"
           />
 
-          <!-- Nama -->
           <h3 class="text-white font-semibold text-lg mb-2">
             {{ item.name }}
           </h3>
 
-          <!-- Testimoni -->
+          <div class="flex justify-center mb-4">
+          <span class="text-yellow-400 text-xl mx-0.5">★</span>
+          <span class="text-yellow-400 text-xl mx-0.5">★</span>
+          <span class="text-yellow-400 text-xl mx-0.5">★</span>
+          <span class="text-yellow-400 text-xl mx-0.5">★</span>
+          <span class="text-yellow-400 text-xl mx-0.5">★</span>
+          </div>
+
           <p class="text-white/90 text-sm leading-relaxed">
             "{{ item.text }}"
           </p>
         </div>
       </div>
     </section>
+
+    
   </div>
 </template>
 
