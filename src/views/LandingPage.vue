@@ -107,6 +107,41 @@
       </div>
     </section>
 
+    <!-- Section: How Certifyme Works -->
+<section class="py-32 bg-gray-50 relative">
+ 
+  <!-- Title with background card -->
+<div class="flex justify-center mb-20">
+  <div class="rounded-[60px] px-12 py-8" style="background-color: rgba(98, 46, 253, 0.1);">
+    <h2 class="text-center text-5xl font-bold text-[#622EFD]">How Certifyme Works</h2>
+  </div>
+</div>
+
+  <!-- Cards Container -->
+  <div class="flex flex-col items-center gap-10">
+    <!-- Card 1 -->
+    <div class="w-[90%] max-w-[1000px] bg-white border-2 border-[#622EFD] rounded-[10px] p-6 shadow-md relative min-h-[150px]">
+      <img src="/src/assets/institusi.png" alt="Institusi Logo" class="w-16 h-16 mb-4">
+      <h3 class="text-xl font-bold mb-2">1. Institusi Menerbitkan</h3>
+      <p class="text-gray-700">Organisasi/kampus menerbitkan sertifikat langsung ke blockchain dengan validasi otomatis.</p>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="w-[90%] max-w-[1000px] bg-white border-2 border-[#622EFD] rounded-[10px] p-6 shadow-md relative min-h-[150px]">
+      <img src="/src/assets/mahasiswa.png" alt="Mahasiswa Logo" class="w-16 h-16 mb-4">
+      <h3 class="text-xl font-bold mb-2">2. Mahasiswa menerima</h3>
+      <p class="text-gray-700">Sertifikat otomatis masuk ke portofolio digital yang bisa dibagikan ke publik.</p>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="w-[90%] max-w-[1000px] bg-white border-2 border-[#622EFD] rounded-[10px] p-6 shadow-md relative min-h-[150px]">
+      <img src="/src/assets/verifikasi.png" alt="Verifikasi Logo" class="w-16 h-16 mb-4">
+      <h3 class="text-xl font-bold mb-2">3. Verifikasi Instan</h3>
+      <p class="text-gray-700">Perekrut dapat memverifikasi keaslian sertifikat dalam hitungan detik.</p>
+    </div>
+  </div>
+</section>
+
     
   </div>
 </template>
