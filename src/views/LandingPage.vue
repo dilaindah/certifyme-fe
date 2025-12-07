@@ -317,7 +317,40 @@
       </div>
     </section>
 
+    <!-- CTA FINAL SECTION FULL WIDTH -->
+    <section class="w-full bg-white py-24">
+      <!-- Card full width -->
+      <div class="w-full bg-[#622EFD] p-12 flex flex-col items-center text-center">
+        <!-- Title -->
+        <h2 class="text-5xl font-bold text-white mb-4">
+          Ready to get started?
+        </h2>
 
+        <!-- Paragraph -->
+        <p class="text-white text-lg mb-6">
+          Mulai beralih ke sistem sertifikat digital yang rapi, cepat, dan mudah diverifikasi
+        </p>
+
+        <!-- Button Group -->
+        <div class="mt-6 flex space-x-4">
+          <!-- Mulai Gratis -->
+          <a
+            href="/register"
+            class="px-6 py-3 bg-white text-[#622EFD] rounded-md font-semibold hover:bg-[#E9DEFF] transition"
+          >
+            Mulai Gratis
+          </a>
+
+          <!-- Lihat Demo -->
+          <a
+            href="/demo"
+            class="px-6 py-3 bg-transparent border border-white text-white rounded-md font-semibold hover:bg-white hover:text-[#622EFD] transition"
+          >
+            Lihat Demo
+          </a>
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 
